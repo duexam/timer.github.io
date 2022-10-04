@@ -1,0 +1,17 @@
+
+.purple{
+    position: fixed;
+    bottom: 0vh;
+    color: purple;
+    font-size: 2rem;
+    animation: fall 3s linear forwards;
+
+}
+
+@keyframes fall {
+    to {
+        top: 0;
+        transform: translateY(-200vh);
+    }
+}
+
