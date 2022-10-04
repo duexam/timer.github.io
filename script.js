@@ -6,7 +6,7 @@ function createHeart(){
 
     h.style.animationDuration = Math.random()*2+6+"s";
 
-h.innerText="💜";
+h.innerText="B💜B";
 
 document.body.appendChild(h);
 
@@ -15,7 +15,7 @@ setTimeout(()=>{
 },5000);
 
 }
-setInterval(createHeart , 100);
+setInterval(createHeart , 80);
 
 
 
