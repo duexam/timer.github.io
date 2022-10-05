@@ -6,7 +6,7 @@ function createHeart(){
 
     h.style.animationDuration = Math.random()*2+6+"s";
 
-h.innerText="B💜B";
+h.innerText="📚";
 
 document.body.appendChild(h);
 
